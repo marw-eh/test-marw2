@@ -1,0 +1,28 @@
+{
+	"name": "pipeline1",
+	"properties": {
+		"activities": [
+			{
+				"name": "Set variable1",
+				"description": "dvsdfsdf",
+				"type": "SetVariable",
+				"dependsOn": [],
+				"policy": {
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"variableName": "qwerty",
+					"value": "234234"
+				}
+			}
+		],
+		"variables": {
+			"qwerty": {
+				"type": "String"
+			}
+		},
+		"annotations": []
+	}
+}
